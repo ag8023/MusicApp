@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_artist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.aasavari.musicalstructureapp.ArtistActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_artist"
+        android:text="@string/txt_artist"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:gravity="fill_horizontal"
+        android:padding="@dimen/view_default_padding"/> />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_album"
+        android:text="@string/btn_album"
+        android:padding="@dimen/view_default_padding"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_genre"
+        android:text="@string/btn_genre"
+        android:padding="@dimen/view_default_padding"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_library"
+        android:text="@string/btn_library"
+        android:padding="@dimen/view_default_padding"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_playlist"
+        android:text="@string/btn_playlist"
+        android:padding="@dimen/view_default_padding"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
